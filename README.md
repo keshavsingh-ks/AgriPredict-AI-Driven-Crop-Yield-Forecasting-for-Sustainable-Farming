@@ -22,8 +22,8 @@ Agriculture forms the backbone of the Indian economy, employing over 50% of the 
 
 ## Machine Learning Techniques
 
-![Machine Learning Pipeline](./images/Picture3.png)
-![Algorithm Comparison](./images/Picture5.png)
+![Machine Learning Pipeline](images/Picture3.png)
+![Algorithm Comparison](images/Picture5.png)
 
 1. **Data Collection & Cleaning**
    - Collected extensive datasets including weather data, soil type, rainfall records, and historical crop yields.
@@ -43,7 +43,7 @@ Agriculture forms the backbone of the Indian economy, employing over 50% of the 
 
 ## AWS Integration
 
-![AWS Architecture](./images/Picture1.png)
+![AWS Architecture](images/Picture1.png)
 
 1. **AWS S3**: 
    - All datasets are securely stored in AWS S3, ensuring high availability and scalability.
@@ -59,7 +59,7 @@ Agriculture forms the backbone of the Indian economy, employing over 50% of the 
 
 ## Docker Implementation
 
-![Docker Architecture](./images/Picture2.png)
+![Docker Architecture](images/Picture2.png)
 
 - **Dockerfile**: The project is containerized using Docker, which simplifies the deployment process and ensures consistency across different environments.
 - **Container Orchestration**: Leveraged Docker to orchestrate multiple services, including the Flask application and the backend model, ensuring seamless communication and scaling.
