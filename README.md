@@ -47,7 +47,7 @@ Web Interface: A user-friendly web application powered by Flask allows farmers t
 
                                                 AWS Integration
 
-(images/Picture 1.png)
+![AWS Architecture](images/Picture 1.png)
 
 
 1. AWS S3:
