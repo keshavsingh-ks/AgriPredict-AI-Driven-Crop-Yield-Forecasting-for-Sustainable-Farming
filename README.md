@@ -26,7 +26,8 @@ Web Interface: A user-friendly web application powered by Flask allows farmers t
 
 
                                              Machine Learning Techniques
-
+(images/Picture 3.png)
+(images/Picture 5.png)
 1. Data Collection & Cleaning
 Collected extensive datasets including weather data, soil type, rainfall records, and historical crop yields.
 Cleaned and pre-processed the data to remove inaccuracies and ensure high-quality inputs for the model.
@@ -41,6 +42,10 @@ Achieved significant accuracy in crop yield predictions, enabling better decisio
 Visualized the performance of various algorithms to select the most efficient one.
 
                                                 AWS Integration
+
+(images/Picture 1.png)
+
+
 1. AWS S3:
 All datasets are securely stored in AWS S3, ensuring high availability and scalability.
 Configured S3 bucket policies to manage access control and data security.
@@ -52,6 +57,10 @@ Deployed the Flask web application on an AWS EC2 instance, providing the necessa
 Used AWS ECR to store Docker images of the model, ensuring quick recovery and consistent environment replication in case of any system failures.
 
                                                 Docker Implementation
+
+
+(images/Picture 2.png)
+   
 Dockerfile: The project is containerized using Docker, which simplifies the deployment process and ensures consistency across different environments.
 Container Orchestration: Leveraged Docker to orchestrate multiple services, including the Flask application and the backend model, ensuring seamless communication and scaling.
 System Design
