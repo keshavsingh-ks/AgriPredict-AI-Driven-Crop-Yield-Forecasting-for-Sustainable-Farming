@@ -25,21 +25,25 @@ Web Interface: A user-friendly web application powered by Flask allows farmers t
 ❖	ML techniques used in this project will result in cost-effective solutions in the agricultural sector.
 
 
-                                             Machine Learning Techniques
+## Machine Learning Techniques
 (images/Picture 3.png)
 (images/Picture 5.png)
-1. Data Collection & Cleaning
-Collected extensive datasets including weather data, soil type, rainfall records, and historical crop yields.
-Cleaned and pre-processed the data to remove inaccuracies and ensure high-quality inputs for the model.
-2. Model Training
-Implemented multiple machine learning algorithms, including Random Forest, Support Vector Machine (SVM), Decision Tree, and K-Nearest Neighbors (KNN).
-The Random Forest model was chosen for its superior accuracy and robustness after thorough comparison with other algorithms.
-3. Model Deployment
-Deployed the trained model using a Flask web application, making it accessible through a user-friendly interface.
-Implemented real-time prediction capability using live inputs from users.
-4. Results
-Achieved significant accuracy in crop yield predictions, enabling better decision-making for farmers.
-Visualized the performance of various algorithms to select the most efficient one.
+1. **Data Collection & Cleaning**
+   - Collected extensive datasets including weather data, soil type, rainfall records, and historical crop yields.
+   - Cleaned and pre-processed the data to remove inaccuracies and ensure high-quality inputs for the model.
+
+2. **Model Training**
+   - Implemented multiple machine learning algorithms, including Random Forest, Support Vector Machine (SVM), Decision Tree, and K-Nearest Neighbors (KNN).
+   - The Random Forest model was chosen for its superior accuracy and robustness after thorough comparison with other algorithms.
+
+3. **Model Deployment**
+   - Deployed the trained model using a Flask web application, making it accessible through a user-friendly interface.
+   - Implemented real-time prediction capability using live inputs from users.
+
+4. **Results**
+   - Achieved significant accuracy in crop yield predictions, enabling better decision-making for farmers.
+   - Visualized the performance of various algorithms to select the most efficient one.
+
 
                                                 AWS Integration
 
