@@ -1,13 +1,14 @@
-AgriPredict: AI-Driven Crop Yield Forecasting for Sustainable Farming
+                    AgriPredict: AI-Driven Crop Yield Forecasting for Sustainable Farming
 
 Overview
 Agriculture forms the backbone of the Indian economy, employing over 50% of the workforce and contributing around 18% to the nation's GDP. Yet, the sector faces numerous challenges, from climate change to soil degradation, which can drastically impact crop yield and farmers' livelihoods. AgriPredict leverages the power of machine learning, cloud computing, and modern software engineering to predict crop yields accurately, optimize farming practices, and ensure sustainable agricultural growth.
 
-Key Features
+                                                    Key Features
 Crop Yield Prediction: Using historical data, weather patterns, and soil characteristics, our model predicts crop yield and provides actionable insights for farmers.
 Real-time Recommendations: The system suggests optimal times for fertilization and other agricultural practices.
 Web Interface: A user-friendly web application powered by Flask allows farmers to interact with the model, input data, and receive predictions.
-Machine Learning Techniques
+
+                                             Machine Learning Techniques
 
 1. Data Collection & Cleaning
 Collected extensive datasets including weather data, soil type, rainfall records, and historical crop yields.
@@ -22,7 +23,7 @@ Implemented real-time prediction capability using live inputs from users.
 Achieved significant accuracy in crop yield predictions, enabling better decision-making for farmers.
 Visualized the performance of various algorithms to select the most efficient one.
 
-AWS Integration
+                                                AWS Integration
 1. AWS S3:
 All datasets are securely stored in AWS S3, ensuring high availability and scalability.
 Configured S3 bucket policies to manage access control and data security.
@@ -33,7 +34,7 @@ Lambda functions handle data retrieval, model execution, and result storage, mak
 Deployed the Flask web application on an AWS EC2 instance, providing the necessary computational power to handle multiple user requests simultaneously.
 Used AWS ECR to store Docker images of the model, ensuring quick recovery and consistent environment replication in case of any system failures.
 
-Docker Implementation
+                                                Docker Implementation
 Dockerfile: The project is containerized using Docker, which simplifies the deployment process and ensures consistency across different environments.
 Container Orchestration: Leveraged Docker to orchestrate multiple services, including the Flask application and the backend model, ensuring seamless communication and scaling.
 System Design
